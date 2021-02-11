@@ -37,5 +37,11 @@ public class BinaryOperators {
         }else{
             System.out.println("no || operator");
         }
+
+    // Ternary Operator assignemnt var = (condition)?true return val: false return value
+    
+    int a4 = 5;
+    Boolean s = (a4==5)?true:false;
+    System.out.println(s);
     }
 }
